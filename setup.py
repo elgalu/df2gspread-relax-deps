@@ -31,7 +31,7 @@ __irequires__ = [
     'argparse>=1.3.0',
     'google-api-python-client>=1.6.7',
     'gspread>=2.1.1',
-    'oauth2client>=1.5.0,<5.0.0dev',
+    # 'oauth2client>=1.5.0,<5.0.0dev',
     'pandas'
 ]
 __xrequires__ = {
