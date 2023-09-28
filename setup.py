@@ -28,15 +28,14 @@ __desc__ = 'Export tables to Google Spreadsheets.'
 __scripts__ = ['bin/csv2gspread']
 __irequires__ = [
     # CORE DEPENDENCIES
-    'argparse>=1.3.0',
-    'google-api-python-client>=1.6.7',
-    'gspread>=2.1.1',
-    # 'oauth2client>=1.5.0,<5.0.0dev',
+    'argparse',
+    'google-api-python-client',
+    'gspread',
     'pandas'
 ]
 __xrequires__ = {
     'tests': [
-        'pytest==2.7.2',
+        'pytest',
         # 'instructions',
         # 'pytest-pep8==1.0.6',  # run with `py.test --pep8 ...`
     ],
